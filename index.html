@@ -3,28 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List maker</title>
+    <title>Make-Report</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="inputs">
+        <h3><i>Name</i></h3>
         <input type="text" placeholder="Name" id="todo_input1">
-        <input type="text" placeholder="Maths" id="todo_input2">
-        <input type="text" placeholder="Physics" id="todo_input3">
-        <input type="text" placeholder="Chemistry" id="todo_input4">
-        <input type="text" placeholder="English" id="todo_input5">
-        <input type="text" placeholder="Urdu" id="todo_input6">
+        <h3><i>Maths</i></h3>
+        <input type="number" placeholder="Maths" id="todo_input2">
+        <h3><i>Physics</i></h3>
+        <input type="number" placeholder="Physics" id="todo_input3">
+        <h3><i>Chemistry</i></h3>
+        <input type="number" placeholder="Chemistry" id="todo_input4">
+        <h3><i>English</i></h3>
+        <input type="number" placeholder="English" id="todo_input5">
+        <h3><i>Urdu</i></h3>
+        <input type="number" placeholder="Urdu" id="todo_input6">
+          <div class="btns"> 
         <button id="add_todo_btn">Submit</button>
-        <button id="del_todo_btn">Reset</button>
+        <button id="del_todo_btn">Reset</button></div>
     </div>
-    <ul id="todo_list">
-   <table class="Table">
-    <tr>No.</tr>
+    <ul id="">
+   <table class="Table" id="todo_list">
+    <thead>
+    <tr>
+        <th scope="col">No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Subjects</th>
+        <th scope="col">Numbers</th>
+        <th scope="col">percentage</th>
+        <!-- <th scope="col">pass/fail</th> -->
+      </tr>
+    </thead>
+
+
+
+  
+    <!-- <tr>No.</tr>
     <tr>Name</tr>
     <tr>Subjects</tr>
     <tr>Numbers</tr>
     <tr>percentage</tr>
-    <tr>pass/fail</tr>
+    <tr>pass/fail</tr> -->
     <!-- <tr>Name</tr> -->
    </table>
 

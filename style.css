@@ -1,3 +1,55 @@
+.inputs{
+    margin: 0px auto;
+    align-items: center;
+    /* display: flex; */
+    display: grid  ;
+    grid-column: 2fr;
+    grid-row: 1fr;
+}
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    border: 2px solid rgb(116, 91, 91);
+    text-align: center;
+    align-items: center;
+    margin: 0px auto;
+}
+h3{
+    align-items: center;
+    margin: 0px auto;
+}
 .Table{
     padding: 3px;
+    margin: 0px auto;
+    gap: 30px;
+    border: 2px solid black;
 }
+
+.Table, tr, th, td{
+    border: 1px solid;
+    gap: 10px;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+.btns{
+    padding-top: 10px;
+    
+    
+}
+
+button{
+    align-items: center;
+    margin: 0px auto;
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgb(132, 151, 145);
+    transition: 1s ;
+}
+
+/* button :hover{
+    box-shadow: 20px;
+} */
